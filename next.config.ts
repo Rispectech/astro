@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Disable Turbopack, use standard webpack
-  experimental: {
-    turbo: false,
-  },
+  // Next.js configuration
 };
 
 export default nextConfig;
